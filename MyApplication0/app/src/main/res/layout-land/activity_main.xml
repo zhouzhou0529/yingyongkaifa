@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="8"
+    android:columnCount="4"
+    tools:ignore="MissingDefaultResource">
+    <!--6行4列
+    实现占满整个屏幕-->
+
+    <EditText
+        android:id="@+id/shuzhi"
+        android:hint="数值"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
+        android:layout_rowWeight="1"
+        />
+    <!--跨四列 自动填充 权重2-->
+    <Button
+        android:id="@+id/bt1"
+        android:text="清除"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"
+        android:textColor="#00F"/>
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt2"
+        android:text="后退"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"
+        android:textColor="#00F"/>
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt23"
+        android:text="长度"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt24"
+        android:text="体积"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp" />
+    //列 行权重为1
+
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt21"
+        android:text="sin"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp" />
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt22"
+        android:text="cos"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp" />
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt19"
+        android:text="2转10进制"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp" />
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt20"
+        android:text="2转16进制"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp" />
+    //列 行权重为1
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt25"
+        android:text="tan"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp" />
+    //列 行权重为1
+
+    <Button
+        android:id="@+id/bt26"
+        android:layout_height="37dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="tan(x/2)" />
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt27"
+        android:text="2进制"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp" />
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt28"
+        android:text="16进制"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp" />
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt3"
+        android:text="7"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt4"
+        android:text="8"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+
+    <Button
+        android:id="@+id/bt5"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="9"
+        android:textSize="20dp" />
+    //列 行权重为1
+    <Button
+
+        android:id="@+id/bt6"
+        android:text="*"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt7"
+        android:text="4"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt8"
+        android:text="5"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+
+    <Button
+        android:id="@+id/bt9"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="6"
+        android:textSize="20dp" />
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt18"
+        android:text="/"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt11"
+        android:text="1"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt12"
+        android:text="2"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt13"
+        android:text="3"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt17"
+        android:text="+"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt15"
+        android:text="0"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:id="@+id/bt14"
+        android:text="="
+        android:layout_rowSpan="1"
+        android:layout_gravity="fill_vertical"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"
+        android:background="#22ac38"/>
+    //跨两行 自动填充 绿色 列权重1 行权重2
+    <Button
+        android:id="@+id/bt16"
+        android:text="."
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //跨两列 自动填充 列权重2 行权重1
+    <Button
+        android:id="@+id/bt10"
+        android:text="-"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行 权重1
+
+
+</GridLayout>
