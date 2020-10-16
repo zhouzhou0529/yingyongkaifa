@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="本软件是一款拥有帮助用户学习英语功能的软件，你可以通过点击增加按钮记录你比较难记的单词，
+增加的内容有单词全文，单词意思，单词例句。后期你还可以增删改查这些单词。"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:background="#039DCF"
+        android:gravity="center"/>
+</LinearLayout>

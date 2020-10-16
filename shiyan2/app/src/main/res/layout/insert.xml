@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txtWord"
+        android:textSize="25dp"
+        android:hint="输入单词"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtMeaning"
+        android:layout_width="wrap_content"
+        android:hint="输入单词含义"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/txtSample"
+        android:layout_width="wrap_content"
+        android:hint="输入单词示例"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        />
+</LinearLayout>
