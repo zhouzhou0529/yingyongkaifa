@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="这是一款计算器"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:background="#039DCF"
+        android:gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <EditText
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/edtext1"
+        android:layout_width="274dp"
+        android:layout_height="100dp"
+        >
+    </EditText>
+    <Spinner
+        android:id="@+id/s1"
+        android:layout_height="150dp"
+        android:layout_width="200dp"
+        android:layout_toRightOf="@+id/edtext1">
+    </Spinner>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:textSize="30dp"
+    android:text="转换"
+    android:id="@+id/button1"
+    android:layout_below="@+id/edtext1"
+    >
+</Button>
+    <TextView
+        android:background="@color/colorPrimary"
+        android:id="@+id/text1"
+        android:layout_width="274dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button1"
+        >
+    </TextView>
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_toRightOf="@+id/text1"
+        android:layout_below="@id/button1"
+        android:id="@+id/s2">
+    </Spinner>
+</RelativeLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <EditText
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/edtext2"
+                android:layout_width="274dp"
+                android:layout_height="100dp">
+            </EditText>
+            <Spinner
+                android:id="@+id/s3"
+                android:layout_height="150dp"
+                android:layout_width="200dp"
+                android:layout_toRightOf="@+id/edtext2">
+            </Spinner>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/edtext2"
+                android:layout_alignBottom="@+id/s3"
+                android:layout_marginBottom="-50dp"
+                android:text="转换"
+                android:textSize="30dp"></Button>
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="269dp"
+                android:layout_height="202dp"
+                android:layout_below="@+id/button2"
+                android:background="@color/colorPrimary"></TextView>
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_toRightOf="@+id/text2"
+                android:layout_below="@id/button2"
+                android:id="@+id/s4">
+            </Spinner>
+        </RelativeLayout>
+    </LinearLayout>
+
+    </LinearLayout>
