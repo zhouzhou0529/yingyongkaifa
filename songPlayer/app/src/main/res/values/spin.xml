@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="items">
+        <item>顺序播放</item>
+        <item>随机播放</item>
+    </array>
+</resources>
